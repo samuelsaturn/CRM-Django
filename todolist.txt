@@ -1,0 +1,27 @@
+- Criar venv
+- Instalar Django
+- Criar projeto
+
+---
+
+- App para as págians do proheto (Nexforce)
+- Templates (Home e Footer)
+- Configurar CSS
+- Criar a base do App
+- Criar página Sobre
+
+---
+
+- Auth de Users (Criar app nome: user)
+- Criar DB (Model)
+- Criar o superuser
+- Views
+- Páginas (Cadastrar, Logar, Sair)
+- Urls (app user..)
+
+---
+
+- Dashboard
+- Criar Leads
+- Editar, Deletar ou Atualizar
+- Deploy

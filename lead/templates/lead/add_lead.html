@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+  Add Lead
+{% endblock %}
+
+{% block content %}
+
+    <h1>Add Lead</h1>
+
+    <form action="{% url 'add_lead' %}" method="POST">
+        {% csrf_token %}
+        
+        {{form.as_p}}
+
+        <button class="button py-4 px-8 bg-teal-500 text-white rounded-xl">Salvar</button>
+
+    </form>
+
+ 
+{% endblock %}
